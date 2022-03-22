@@ -1,38 +1,38 @@
-'''Desafio 21
-Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.'''
+# Desafio 21
+# Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
 
 
-''' Desafio 22
-Crie um programa que leia o nome completo de uma pessoa e mostre:
-	o nome com todas as letras maiúsculas;
-	o nome com todas as letras minúscula;
-	quantas letras ao todo (sem considerar espaços);
-	quantas letras tem o primeiro nome. '''
+# Desafio 22
+# Crie um programa que leia o nome completo de uma pessoa e mostre:
+# 	o nome com todas as letras maiúsculas;
+# 	o nome com todas as letras minúscula;
+# 	quantas letras ao todo (sem considerar espaços);
+# 	quantas letras tem o primeiro nome.
 
-# nome = str(input('Informe o nome completo: '))
-# tamanho = nome.split()
-# print(f'Em letras maiúsculas: {nome.upper()} ')
-# print(f'Em letras minúsculas: {nome.lower()} ')
-# print(f'Quantas letras o nome tem: {len(nome.strip())} letras ')
-# print(f'Quantas letras tem o primeiro nome: {len(tamanho[0])} letras ')
-# print('Fim!')
+nome = str(input('Informe o nome completo: '))
+tamanho = nome.split()
+print(f'Em letras maiúsculas: {nome.upper()} ')
+print(f'Em letras minúsculas: {nome.lower()} ')
+print(f'Quantas letras o nome tem: {len(nome.strip())} letras ')
+print(f'Quantas letras tem o primeiro nome: {len(tamanho[0])} letras ')
+print('Fim!')
 
 
-''' Desafio 23
-Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
-	Ex: digite um número: 1834
-unidades: 4, dezenas: 3, centenas: 8, milhar: 1 '''
+# Desafio 23
+# Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+# 	Ex: digite um número: 1834
+# unidades: 4, dezenas: 3, centenas: 8, milhar: 1
 
-# num = int(input('Digite um número: '))
-# u = num // 1 % 10
-# d = num // 10 % 10
-# c = num // 100 % 10
-# m = num // 1000 % 10
-# print(f'A unidade é {u}')
-# print(f'A dezena é {d}')
-# print(f'A centena é {c}')
-# print(f'A milhar é {m}')
-# print('Fim!')
+num = int(input('Digite um número: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print(f'A unidade é {u}')
+print(f'A dezena é {d}')
+print(f'A centena é {c}')
+print(f'A milhar é {m}')
+print('Fim!')
 
 
 ''' Desafio 24
