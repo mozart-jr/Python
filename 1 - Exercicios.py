@@ -6,7 +6,7 @@
 #     numero = int(input('Digite um número:'))
 #     soma = soma + numero
 #
-# print(f'A soma dos numeros digitasoe é {soma}')
+# print(f'A soma dos numeros digitados é {soma}')
 # print('Fim!')
 
 # numero = 0
@@ -17,7 +17,7 @@
 #         break
 #     soma = soma + numero
 #
-# print(f'A soma dos numeros digitasoe é {soma}')
+# print(f'A soma dos numeros digitados é {soma}')
 # print('Fim!')
 
 #-----------------------------  Inicio dos Desafios   ----------------------------
